@@ -2,17 +2,17 @@
 LodgeIt and Jinsei.ai collaboration. Various data mapping and chat services.
 
 the sheets have to follow a pattern of a "template",
-- declaring items and subitems, 
+declaring items and subitems, 
 + items and subitems without header names
   
-- always a header naming each column, 
+always a header naming each column, 
 + unknown header names 
 + no header name
   
-- one or multiple items in either horizontal or vertical orientation 
+one or multiple items in either horizontal or vertical orientation 
 + we can add matrix scaling for any pattern of xml representation
   
-- we map that to a tree-structured "objects with properties" in RDF.
+we map that to a tree-structured "objects with properties" in RDF.
 + declaritively train the ai to map into tree-strucutred rdf objects
 
 demonstrate how to break down the data formats into model and neural net aggregtd training sets that scale horizonttaly and vertically 
