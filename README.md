@@ -1,24 +1,26 @@
 # LodgeIt-JinseiAI
-LodgeIt and Jinsei.ai collaboration. Various data mapping and chat services.
 
-the sheets have to follow a pattern of a "template",
-declaring items and subitems, 
-+ items and subitems without header names
-  
-always a header naming each column, 
-+ unknown header names 
-+ no header name
-  
-one or multiple items in either horizontal or vertical orientation 
-+ we can add matrix scaling for any pattern of xml representation
-  
-we map that to a tree-structured "objects with properties" in RDF.
-+ declaritively train the ai to map into tree-strucutred rdf objects
+# XML element posistion mapping Robust RDF Interface 
 
-demonstrate how to break down the data formats into model and neural net aggregtd training sets that scale horizonttaly and vertically 
+- investment_calculator_example_1.xlsx
+- needs outside investment statements
 
-+ use the example data to start the training sets. 
+'''python
+# Training data organization
+training_data = [
+    {"input_xml": "<input_xml_1>", "target_xml": "<target_xml_1>"},
+    {"input_xml": "<input_xml_2>", "target_xml": "<target_xml_2>"},
+    # Add more examples as needed
+]
 
-+ acquire bank statements from all over train the ai based off of their strucutre and referencing the transofrmation in the orignail structure that lodgeit has so that lodgeit is prepared for any bank statement theorteically.
+# Extract input and target sequences from training data
+input_xml_data = [example["input_xml"] for example in training_data]
+target_xml_data = [example["target_xml"] for example in training_data]
 
-+ chat gpt implemnetaion with prompt training sets regarding how to use and navigate lodgeit smart util. Anamoulus data entries like names that dont match any in the set or allowed values or weird dates can be fed to the chat system and it can return back suggestions for the user. Part of report deviance.
+'''
+
+Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl & https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs
+
+# Chat GPT + Cell & Sheet Compatibility Variance
+
+# XBRL Robust RDF Report Element Extraction & Compilation
