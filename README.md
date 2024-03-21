@@ -25,4 +25,7 @@ Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/source
 
 # Chat GPT + Cell & Sheet Content Variance
 
+- Boilerplate: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/server.js
+- Integrate spreadsheet variable position + content training environment
+
 # XBRL-Robust Report Element Extraction & Compilation
