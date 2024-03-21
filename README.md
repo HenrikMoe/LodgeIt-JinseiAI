@@ -1,6 +1,6 @@
 # LodgeIt-JinseiAI
 
-# XML element posistion mapping Robust RDF Interface 
+# XML Sequence-to-Sequence Bank Statement Transformer 
 
 - investment_calculator_example_1.xlsx
 - needs outside investment statements
@@ -18,6 +18,8 @@ input_xml_data = [example["input_xml"] for example in training_data]
 target_xml_data = [example["target_xml"] for example in training_data]
 
 ```
+
+Boilerplate model: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
 
 Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl & https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs
 
