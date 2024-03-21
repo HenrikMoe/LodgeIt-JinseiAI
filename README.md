@@ -5,7 +5,7 @@
 - investment_calculator_example_1.xlsx
 - needs outside investment statements
 
-''' python
+```python
 # Training data organization
 training_data = [
     {"input_xml": "<input_xml_1>", "target_xml": "<target_xml_1>"},
@@ -17,7 +17,7 @@ training_data = [
 input_xml_data = [example["input_xml"] for example in training_data]
 target_xml_data = [example["target_xml"] for example in training_data]
 
-'''
+```
 
 Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl & https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs
 
