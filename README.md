@@ -5,7 +5,7 @@
 - investment_calculator_example_1.xlsx
 - needs outside investment statements
 
-'''python
+''' python
 # Training data organization
 training_data = [
     {"input_xml": "<input_xml_1>", "target_xml": "<target_xml_1>"},
