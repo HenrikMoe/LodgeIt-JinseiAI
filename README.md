@@ -2,7 +2,7 @@
 
 # XML Sequence-to-Sequence Bank Statement Transformer 
 
-- investment_calculator_example_1.xlsx
+- https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/investment_calculator_example_1.xlsx
 - needs outside investment statements
 
 ```python
