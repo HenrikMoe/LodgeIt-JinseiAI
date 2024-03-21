@@ -29,7 +29,7 @@ Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/source
 
 - Boilerplate Prompt (content) Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/server.js
 - Boilerplate Sequence 2 Sequence Training: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
-- Integrate spreadsheet variable position + content training environment
+- Boilderplate Prompt Live Matrix Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/matrixContextChatBoiler.js)
 
 # XBRL-Robust Report Element Extraction & Compilation
 
