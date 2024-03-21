@@ -21,6 +21,8 @@ target_xml_data = [example["target_xml"] for example in training_data]
 
 Boilerplate Sequence to Sequence model: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
 
+Exisiting System: https://github.com/lodgeit-labs/accounts-assessor
+
 Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl & https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs
 
 # Chat GPT + Cell & Sheet Content Variance 
