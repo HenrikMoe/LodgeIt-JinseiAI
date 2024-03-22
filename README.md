@@ -9,6 +9,8 @@ Boilerplate Sequence to Sequence model: https://github.com/HenrikMoe/LodgeIt-Jin
 
 LSU System: https://github.com/lodgeit-labs/accounts-assessor
 
+Optimized Function In Use Case: https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs ---  public class Pos - ln 207
+
 Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl & https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs
 
 ## Set Env & Run Models
