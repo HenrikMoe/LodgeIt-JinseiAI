@@ -43,7 +43,7 @@ Optimized Function In Use Case: https://github.com/koo5/CsharpServices/blob/a83f
 
 ```
 
-Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl 
+RDF Prolog Logic: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl 
 
 ## Set Env & Run Models
 edit
