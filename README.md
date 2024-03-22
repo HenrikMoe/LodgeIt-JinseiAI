@@ -5,7 +5,6 @@
 - https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/investment_calculator_example_1.xlsx
 - needs outside investment statements
 
-Boilerplate Sequence to Sequence model: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
 
 LSU System: https://github.com/lodgeit-labs/accounts-assessor
 
@@ -48,6 +47,9 @@ RDF Prolog Logic: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sou
 ## C# & Py TF Service Integration
 
 ## Set Env & Run Models
+
+Boilerplate Sequence to Sequence model: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
+
 edit
 
 startup:
