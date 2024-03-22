@@ -9,7 +9,39 @@ Boilerplate Sequence to Sequence model: https://github.com/HenrikMoe/LodgeIt-Jin
 
 LSU System: https://github.com/lodgeit-labs/accounts-assessor
 
-Optimized Function In Use Case: https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs ---  public class Pos - ln 207
+Optimized Function In Use Case: https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs 
+-  ln 207:
+```c#
+  public class Pos
+    {
+        public int col = 'A';
+        public int row = 1;
+        public string Cell { get { return GetExcelColumnName() + row.ToString(); } }
+        public override string ToString() { return Cell; }
+        public Pos Clone() { return (Pos)MemberwiseClone(); }
+        /*fixme*/
+        static public int ColFromString(string s)
+        {
+            return s[0]; /*fixme*/
+        }
+        public string GetExcelColumnName()
+        /* https://stackoverflow.com/a/182924 */
+        {
+            int dividend = col - 'A' + 1;
+            string columnName = String.Empty;
+            int modulo;
+
+            while (dividend > 0)
+            {
+                modulo = (dividend - 1) % 26;
+                columnName = Convert.ToChar('A' + modulo).ToString() + columnName;
+                dividend = (int)((dividend - modulo) / 26);
+            }
+            return columnName;
+        }
+    }
+
+```
 
 Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl & https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs
 
