@@ -46,6 +46,8 @@ RDF Prolog Logic: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sou
 
 ## C# & Py TF Service Integration
 
+C# Robust Interface with Jinsei.ai Solution Container In LSU
+
 ## Set Env & Run Models
 
 Boilerplate Sequence to Sequence model: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
