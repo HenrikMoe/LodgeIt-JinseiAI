@@ -43,7 +43,7 @@ Optimized Function In Use Case: https://github.com/koo5/CsharpServices/blob/a83f
 
 ```
 
-Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl & https://github.com/koo5/CsharpServices/blob/a83f0d1e1c9c379e21e61b011fc87c875a7528a8/WebApplication2/RdfTemplate.cs
+Intake target: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl 
 
 ## Set Env & Run Models
 edit
