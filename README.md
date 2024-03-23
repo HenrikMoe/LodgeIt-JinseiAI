@@ -44,11 +44,11 @@ Optimized Function In Use Case: https://github.com/koo5/CsharpServices/blob/a83f
 
 RDF Prolog Logic: https://github.com/lodgeit-labs/accounts-assessor/blob/dev/sources/lib/process_request_loan.pl 
 
-## C# & Py TF Service Integration
+### C# & Py TF Service Integration
 
 C# Robust Interface with Jinsei.ai Solution Container In LSU
 
-## Set Env & Run Models
+### Set Env & Run Models
 
 Boilerplate Sequence to Sequence model: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
 
