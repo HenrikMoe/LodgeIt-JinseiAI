@@ -98,7 +98,7 @@ input_xml_data = [example["input_xml"] for example in training_data]
 target_xml_data = [example["target_xml"] for example in training_data]
 
 ```
-## 2 XBRL-Robust Report Element Extraction & Compilation
+## 2) XBRL-Robust Report Element Extraction & Compilation
 
 - Boilerplate Prompt (query syntax) Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/server.js
 - Boilerplate Classification Training: https://github.com/PortalToBlockchainOrganization/CryptoCountAI/blob/master/typeModelResult1.py
@@ -107,7 +107,7 @@ target_xml_data = [example["target_xml"] for example in training_data]
 
 
 
-## 3 Chat GPT + XML Content Position Live Variance 
+## 3) Chat GPT + XML Content Position Live Variance 
 
 - Convert to PY/C#
 
