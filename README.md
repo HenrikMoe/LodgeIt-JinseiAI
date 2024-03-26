@@ -98,6 +98,13 @@ input_xml_data = [example["input_xml"] for example in training_data]
 target_xml_data = [example["target_xml"] for example in training_data]
 
 ```
+## XBRL-Robust Report Element Extraction & Compilation
+
+- Boilerplate Prompt (query syntax) Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/server.js
+- Boilerplate Classification Training: https://github.com/PortalToBlockchainOrganization/CryptoCountAI/blob/master/typeModelResult1.py
+- Integrate Robust DB Query to Taxonomy Element pairings training environment
+- Needs XBRL taxonomies compatible with Robust client data
+
 
 
 ## Chat GPT + XML Content Position Live Variance 
@@ -107,11 +114,4 @@ target_xml_data = [example["target_xml"] for example in training_data]
 - TS Boilerplate Prompt (content) Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/server.js
 - PY Boilerplate Sequence 2 Sequence Training: https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/xmlSeq2Seq.py
 - TS Boilderplate Prompt Live Matrix Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/matrixContextChatBoiler.js)
-
-## XBRL-Robust Report Element Extraction & Compilation
-
-- Boilerplate Prompt (query syntax) Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/server.js
-- Boilerplate Classification Training: https://github.com/PortalToBlockchainOrganization/CryptoCountAI/blob/master/typeModelResult1.py
-- Integrate Robust DB Query to Taxonomy Element pairings training environment
-- Needs XBRL taxonomies compatible with Robust client data
 
