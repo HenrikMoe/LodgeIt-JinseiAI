@@ -19,6 +19,8 @@
 - Needs XBRL taxonomies compatible with Robust client data
 
 
+## Dep
+
 ## 3) XML Sequence-to-Sequence Bank Statement Transformer - LSU Extension
 
 - https://github.com/HenrikMoe/LodgeIt-JinseiAI/edit/main/investment_calculator_example_1.xlsx
