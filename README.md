@@ -1,6 +1,6 @@
 # LodgeIt-JinseiAI
 
-## 1) Chat GPT + XML Content Position Live Variance 
+## 1) Chat GPT + XML Content/Position Validation Service 
 
 - Convert to PY/C#
 
@@ -11,7 +11,7 @@
 - New online is O365 API plugin 
   
 
-## 2) XBRL-Robust Report Element Extraction & Compilation
+## 2) Robust Chat GPT Report Element Extraction & Compilation Service
 
 - Boilerplate Prompt (query syntax) Training: https://github.com/HenrikMoe/jinsei.ai-sbrm-rdf-llm-UI/blob/main/backend/server.js
 - Boilerplate Classification Training: https://github.com/PortalToBlockchainOrganization/CryptoCountAI/blob/master/typeModelResult1.py
